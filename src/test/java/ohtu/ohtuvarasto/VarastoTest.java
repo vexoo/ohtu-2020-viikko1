@@ -97,7 +97,7 @@ public class VarastoTest {
     }
 
     @Test
-    public void AlkusaldovarastoNegatiivisellaTilavuudella() {
+    public void alkusaldovarastoNegatiivisellaTilavuudella() {
         Varasto saldoVarasto = new Varasto(-10, 10);
         assertEquals(0, saldoVarasto.getTilavuus(), vertailuTarkkuus);
         assertEquals(-10, saldoVarasto.getSaldo(), vertailuTarkkuus);
