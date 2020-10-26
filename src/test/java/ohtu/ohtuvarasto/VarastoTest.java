@@ -118,7 +118,7 @@ public class VarastoTest {
     }
 
     @Test
-    public void toStringTest() {
+    public void toStringTesti() {
         assertEquals(varasto.toString(), "saldo = 0.0, vielä tilaa 10.0");
     }
 }
