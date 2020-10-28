@@ -100,7 +100,7 @@ public class VarastoTest {
     public void alkusaldovarastoNegatiivisellaTilavuudella() {
         Varasto saldoVarasto = new Varasto(-10, 10);
         assertEquals(0, saldoVarasto.getTilavuus(), vertailuTarkkuus);
-        assertEquals(-10, saldoVarasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(0, saldoVarasto.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
